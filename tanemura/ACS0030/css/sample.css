@@ -153,11 +153,11 @@
 .item-name{
 	margin:0;
 }
-.nigyou{
+.form-horizontal .two-lines{
 	padding-top:1px;
 	line-height:16px;
 }
-.ichigyou{
+.line{
 	padding-top:7px;
 }
 
