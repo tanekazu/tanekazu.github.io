@@ -153,9 +153,6 @@
 .item-name{
 	margin:0;
 }
-.item-name2{
-	vertical-align:middle;
-}
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
