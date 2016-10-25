@@ -1,171 +1,203 @@
-.navbar-brand {
-  background: url("../img/eiken_logo2.png") no-repeat left center;
-  background-size: contain;
-  height: 47px;
-  width: 206px;
-}
 
-.text-label {
-    width: 150px;
-    font-size: 16pt;
-    text-align: left;
-}
+<!DOCTYPE html>
+<html lang="ja">
 
-.input-shuseki-bango {
-    margin-right: 158px;
-    font-size: 16pt;
-}
+<head>
 
-.input-password {
-    margin-right: 25px;
-    font-size: 16pt;    
-}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-.confirm-button {
-    width: 133px;
-    height: 41px;
-}
+    <title>アルバイト個人情報登録</title>
 
-.item {
-    margin-bottom: 7px;    
-    padding-left: 0;
-    padding-right: 0;
-}
-.item-value {
-    padding-left: 5px;
-/*    width: 300px;*/
-    height: 27px;
-    font-size: 16pt;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: whitesmoke;
-    color: blue;
-}
+    <!-- Bootstrap Core CSS -->
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" id="themesid">
 
-.image {
-    width: 134px;
-    height: 165px;
-    display:table-cell;
-    text-align:center;
-    vertical-align:middle;
-    layout-grid-line:200px;
-}
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/sample.css" rel="stylesheet">
 
-.image img {
-    width: 100%;
-    height: auto;
-    vertical-align:middle;
-}
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-.parttimejob-info {
-    border: solid 1px gray;
-    padding-top: 15px;
-}
 
-.file-select {
-    border: none;
-    box-shadow: none;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 60px;
-    font-size: 16pt;
-    margin-top: 10px;
-}
-.shukkin {
-    width: 150px;
-    height: 49px;
-}
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-.navbar-default {
-  background-color: #FFFFFF;
-  border-color: #d42020;
-}
-.navbar-default .navbar-brand {
-  color: #989898;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #ffdfe6;
-}
-.navbar-default .navbar-text {
-  color: #989898;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #989898;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ffdfe6;
-  background-color: #d42020;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #ffdfe6;
-  background-color: #d42020;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #ffdfe6;
-  background-color: #d42020;
-}
-.navbar-default .navbar-toggle {
-  border-color: #d42020;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #d42020;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #989898;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #989898;
-}
-.navbar-default .navbar-link {
-  color: #989898;
-}
-.navbar-default .navbar-link:hover {
-  color: #ffdfe6;
-}
-.canvas{
-	margin-left: 30px;
-	margin-top: 10px;
-	border:1px solid gray;
-}
-.sign{
-	margin-left: 200px;
-	font-size: 16pt; 
-}
-.control-label{
-	padding-right:0;
-}
-.item-birth{
-	font-size:5px;
-	padding:0;
-}
-.item-padding{
-	padding-right:0;
-}
-.item-name{
-	margin:0;
-}
+</head>
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #989898;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffdfe6;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffdfe6;
-    background-color: #d42020;
-  }
-}
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-origin navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+           
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    <!-- Page Content -->
+    <div class="content-section-b">
+        <div class="container-fluid center-block">
+            <form class="form-horizontal">
+           		<div class="row">
+	            	<div class="col-lg-12 col-xs-12 col-sm-12">
+	            		<h2 class="text-center" style="font-size=13px;">2016年度第3回検定　　二次　アルバイト申込</h2>
+	            	</div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-lg-3 col-sm-2"></div>
+	            	<div class="col-lg-6 col-xs-12 col-sm-8">
+	            		<div class="form-group">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label item-name">氏名</label>
+	    					<div class="col-lg-3 col-xs-9 col-sm-5">
+	      						<input type="text" class="form-control-static" placeholder="英検　太郎">
+	    					</div>
+	  					</div>
+	  					<div class="form-group">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label item-name">氏名カナ</label>
+		    				<div class="col-lg-3 col-xs-9 col-sm-5">
+	    	  					<input type="text" class="form-control-static" placeholder="エイケン　タロウ">
+	    					</div>
+	    				</div>
+	    				<div class="form-group">
+		    				<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label item-name">生年月日</label>
+	    					<div class="col-lg-2 col-xs-4 col-sm-2 item-padding">
+	      						<input type="text" class="form-control-static" placeholder="19990101">
+	    					</div>
+	    					<div class="col-lg-5 col-xs-5 col-sm-5 item-birth">
+	    						（8桁で入力してください）<br>
+	    						例1999/01/01⇒19990101
+		    				</div>
+	    				</div>
+	    				<div class="form-group">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label item-name">住所</label>
+		    			</div>
+	    				<div class="form-group">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label item-name">郵便番号</label>
+	    					<div class="col-lg-4 col-xs-4 col-sm-4 item-padding">
+	      						<input type="text" class="form-control-static" placeholder="1234567">
+	    					</div>
+		    				<div class="col-lg-5 col-xs-5 col-sm-5 item-name" style="font-size:10px;">ハイフン無し</div>
+	    				</div>
+	    				<div class="form-group">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label">都道府県<br>市区町村</label>
+	    					<div class="col-lg-6 col-xs-9 col-sm-6">
+	      						<input type="text" class="form-control" placeholder="東京都港区芝浦">
+		    				</div>
+	    				</div>
+	    				<div class="form-group">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label item-name">番地</label>
+	    					<div class="col-lg-6 col-xs-9 col-sm-6">
+	      						<input type="text" class="form-control-static" placeholder="3-16-20">
+		    				</div>
+	    				</div>
+	    				<div class="form-group">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label item-name">建物名</label>
+	    					<div class="col-lg-6 col-xs-9 col-sm-6">
+	      					<input type="text" class="form-control-static" placeholder="芝浦前川ビル2階">
+	    					</div>
+		    			</div>
+	    				<div class="form-group">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label">携帯電話<br>番号</label>
+	    					<div class="col-lg-5 col-xs-5 col-sm-5 item-padding">
+	      						<input type="text" class="form-control" placeholder="09011112222">
+	    					</div>
+		    				<div class="col-lg-4 col-xs-4 col-sm-4" style="font-size:10px;">ハイフン無し</div>
+	    				</div>
+	    				<div class="form-group">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label item-name">口座</label>
+	    				</div>
+		    			<div class="form-group" style="margin-bottom:0;">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label">金融機関<br>コード</label>
+	    					<div class="col-lg-3 col-xs-3 col-sm-3 item-padding">
+	      						<input type="text" class="form-control">
+	    					</div>
+	    					<div class="col-lg-6 col-xs-6 col-sm-6">
+	    						<button type="button" class="btn btn-primary">金融機関名検索</button>
+		    				</div>
+	    				</div>
+	    				<div class="form-group">
+	    					<div class="col-lg-3 col-xs-3 col-sm-3"></div>
+	    					<div class="col-lg-9 col-xs-9 col-sm-9 ">
+	    						<label class="control-label">○×銀行</label>
+	    					</div>
+	    				</div>
+		    			<div class="form-group" style="margin-bottom:0;">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label">支店<br>コード</label>
+	    					<div class="col-lg-3 col-xs-3 col-sm-3 item-padding">
+	      						<input type="text" class="form-control">
+	    					</div>
+		    			</div>
+	    				<div class="form-group">
+	    					<div class="col-lg-3 col-xs-3 col-sm-3"></div>
+	    					<div class="col-lg-9 col-xs-9 col-sm-9 ">
+	    						<label class="control-label">○×支店</label>
+	    					</div>
+	    				</div>
+	    				<div class="form-group">
+		    				<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label item-name" style="padding-top:0;">口座種別</label>
+		    				<label class="col-lg-2 col-xs-2 col-sm-2 radio-inline" style="margin-left:15px; padding-right:0; padding-top:0;"><input type="radio" name="rd" checked>普通</label>
+	  						<label class="col-lg-2 col-xs-2 col-sm-2 radio-inline" style="padding-right:0; padding-top:0;"><input type="radio" name="rd">当座</label>
+		  					<label class="col-lg-3 col-xs-3 col-sm-3 radio-inline" style="padding-right:0; padding-top:0;"><input type="radio" name="rd">その他</label>
+	    				</div>
+	    				<div class="form-group">
+	    					<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label item-name">口座番号</label>
+	    				<div class="col-lg-3 col-xs-6 col-sm-3">
+	      					<input type="text" class="form-control-static">
+	    				</div>
+		    			</div>
+		    			<div class="form-group">
+		    				<label class="col-lg-3 col-xs-3 col-sm-3 text-left control-label item-name">口座名義</label>
+		    				<div class="col-lg-3 col-xs-9 col-sm-5">
+		      					<input type="text" class="form-control-static">
+		    				</div>
+		    			</div>
+		    			<div class="col-lg-3 col-sm-3"></div>
+		    			<div class="col-lg-9 col-xs-12 col-sm-9">
+			    			<div class="form-group">
+			    				<a href="#">アルバイト規約について</a>    				
+			    			</div>
+			    			<div class="form-group">
+			    				<a href="#">個人情報保護の取扱いについて</a>    				
+			    			</div>
+			 	   			<div class="form-group">
+		 	 					<label class="checkbox-inline" style="font-size:10px; padding-top:0;"><input type="checkbox" name="cb1">
+		 	 						アルバイト規約及び個人情報保護の取扱いについて同意する
+		 	 					</label>
+			    			</div>
+			    		</div>	
+			    		<div class="form-group">
+			    			<div class="col-lg-12 col-xs-12 col-sm-12 text-center">
+			    				<button type="button" class="btn btn-primary btn-lg">確認</button>
+			    			</div>
+			    		</div>	    			
+		    		</div>
+	            	<div class="col-lg-3 col-sm-2"></div>
+	            </div>
+            </form>
+        </div>
+	</div>
+    
+    
+</body>
+</html>
