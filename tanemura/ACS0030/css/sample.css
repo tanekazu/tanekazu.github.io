@@ -180,6 +180,9 @@
     color: #ffdfe6;
     background-color: #d42020;
   }
+  .item-size{
+  	font-size:20px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .item-size{
