@@ -161,6 +161,11 @@
 	padding-top:7px;
 }
 
+@media screen and (max-width: 500px) {
+  .item-size{
+  	font-size:14px;
+  }
+}
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #989898;
@@ -176,7 +181,7 @@
     background-color: #d42020;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
   .item-size{
   	font-size:14px;
   }
