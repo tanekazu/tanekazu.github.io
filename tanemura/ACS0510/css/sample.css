@@ -1,0 +1,144 @@
+.parttimejob-info {
+    border: solid 1px gray;
+    padding: 5px;
+    padding-bottom:0;
+}
+.item-name {
+    padding-left: 0;
+    padding-right:0;
+/*    width: 137px;*/
+	height:25px;
+    font-size:16pt;
+    display: table-cell;
+    vertical-align: middle;
+}
+.item {
+    margin-bottom: 5px;    
+    padding-left: 0;
+    padding-right: 0;
+}
+.cb-name{
+	padding-left:0;
+	padding-right:0;
+	height:25px;
+	width:90px;
+}
+.search-info {
+    border: solid 1px gray;
+    padding-top:5px;
+}
+.search-name{
+	padding-left: 0;
+    padding-right:0;
+/*    width: 137px;*/
+	height:25px;
+    font-size:16pt;
+    display: table-cell;
+    vertical-align: middle;
+}
+.status-name{
+	padding-left: 0px;
+	padding-right: 0px;
+    height:22px;
+    font-size:11pt;
+    display: table-cell;
+    vertical-align: middle;
+}
+.text-name{
+	padding-left:0;
+	padding-right:0;
+	height:25px;
+}
+.all-margin{
+	margin-bottom:5px;
+}
+.account-padding{
+	padding:0;
+} 
+.search-out-padding{
+	padding:0;
+}
+.text-width{
+	width:130px;
+}
+.box-size{
+	width:16px;
+	height:16px;
+	margin:0;
+	bottom:0;
+}
+.navbar-brand {
+  background: url("../img/eiken_logo2.png") no-repeat left center;
+  background-size: contain;
+  height: 47px;
+  width: 206px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #d42020;
+}
+.navbar-default .navbar-brand {
+  color: #989898;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffdfe6;
+}
+.navbar-default .navbar-text {
+  color: #989898;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #989898;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffdfe6;
+  background-color: #d42020;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffdfe6;
+  background-color: #d42020;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffdfe6;
+  background-color: #d42020;
+}
+.navbar-default .navbar-toggle {
+  border-color: #d42020;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #d42020;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #989898;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #989898;
+}
+.navbar-default .navbar-link {
+  color: #989898;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffdfe6;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #989898;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffdfe6;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffdfe6;
+    background-color: #d42020;
+  }
+}
