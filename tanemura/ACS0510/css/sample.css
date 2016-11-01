@@ -7,10 +7,11 @@
     padding-left: 0;
     padding-right:0;
 /*    width: 137px;*/
-	height:25px;
+	height:35px;
     font-size:16pt;
     display: table-cell;
     vertical-align: middle;
+    padding-top:3px;
 }
 .item {
     margin-bottom: 5px;    
@@ -20,7 +21,7 @@
 .cb-name{
 	padding-left:0;
 	padding-right:0;
-	height:25px;
+	height:35px;
 	width:90px;
 }
 .search-info {
