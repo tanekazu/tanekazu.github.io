@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>アルバイト締め登録</title>
+
+    <!-- Bootstrap Core CSS -->
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" id="themesid">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/sample.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-origin navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                 <p class="navbar-text navbar-right">ログイン担当者</p>
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li>
+                        <a href="#services">アルバイト出勤登録</a>
+                    </li>
+                    <li>
+                        <a href="#services">アルバイト退勤登録</a>
+                    </li>
+                    <li>
+                        <a href="#services">アルバイト締め処理</a>
+                    </li>
+                    <li>
+                        <a href="#services">面接委員出退勤登録</a>
+                    </li>
+                    <li>
+                        <a href="#services">面接委員締め処理</a>
+                    </li>-->
+                    <li>
+                        <a href="#about">メニュー</a>
+                    </li>
+                    <li>
+                        <a href="#services">ログオフ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+
+<!--     <a  name="services"></a>
+    <div class="content-section-a">
+    </div> -->
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container center-block">
+            <form wicket:id="form">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-6 col-sm-6">
+                        <span style="font-size: 16pt;">2016年度第3回検定</span>
+                    </div>
+                    <div class="col-lg-6 col-xs-6 col-sm-6" style="text-align: right">
+                        <span style="text-align: right; color: red; font-size: 14pt;">この画面はACS0210です。</span>
+                    </div>
+                </div>
+                <div class="row">
+					<div class="col-lg-12 col-xs-12 col-sm-12">
+						<h2 class="section-heading text-center">アルバイト締め登録</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-xs-12 col-sm-12">
+							<table class="table-bordered table-margin">
+								<thead>
+									<tr style="height:30px;">
+										<th class="text-center bg-info" style="width:100px;">出席番号</th>
+										<th class="text-center bg-info" style="width:130px;">氏名</th>
+										<th class="text-center bg-info" style="width:130px;">氏名（カナ）</th>
+										<th class="text-center bg-info" style="width:100px;">出勤時間</th>
+										<th class="text-center bg-info" style="width:100px;">退勤時間</th>
+										<th class="text-center bg-info" style="width:100px;">単価</th>
+										<th class="text-center bg-info" style="width:100px;">修正理由</th>
+										<th class="text-center bg-info" style="width:100px;">出勤取消</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+									<tr style="height:40px;">
+										<td class="syusseki-bango"></td>
+										<td class="simei"></td>
+										<td class="simei-kana"></td>
+										<td class="syukkin-time"></td>
+										<td class="taikin-time"></td>
+										<td class="tanka"></td>
+										<td class="syusei-reason">
+											<select class="form-control cb-info">
+		 									</select>
+										</td>
+										<td class="syukkin-delete">
+											<button class="btn btn-danger button-info">出勤取消</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>							
+					</div>
+                </div>
+                <div class="row">
+                	<div class="col-lg-1 col-xs-1 col-sm-1"></div>
+                	<div class="col-lg-3 col-xs-3 col-sm-3 button-margin">
+                		<button class="btn btn-default save-button-size">保存</button>
+                	</div>
+                	<div class="col-lg-1 col-xs-1 col-sm-1"></div>
+                	<div class="col-lg-3 col-xs-3 col-sm-3 button-margin">
+                		<button class="btn btn-default sime-button-size">締め処理</button>
+                	</div>
+                </div>                
+            </form>
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script>/** JS：記述スペース */
+</script><style>/** CSS：記述スペース */
+</style></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

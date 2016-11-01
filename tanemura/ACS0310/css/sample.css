@@ -1,0 +1,154 @@
+.navbar-brand {
+  background: url("../img/eiken_logo2.png") no-repeat left center;
+  background-size: contain;
+  height: 47px;
+  width: 206px;
+}
+.table-margin{
+	margin: 0px auto;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th, td {
+    border: 1px solid #666;
+}
+thead, tbody {
+    display: block;
+}
+tbody {
+    overflow-y: scroll;
+    height: 411px;
+}
+.syusseki-bango{
+	width:100px;
+}
+.simei{
+	width:130px;
+}
+.simei-kana{
+	width:130px;
+}
+.syukkin-time{
+	width:100px;
+}
+.taikin-time{
+	width:100px;
+}
+.tanka{
+	width:100px;
+	background-color:rgb(255, 255, 192);
+}
+.syusei-reason{
+	width:100px;
+	background-color:rgb(255, 255, 192);
+}
+.syukkin-delete{
+	width:100px;
+}
+.cb-info{
+	width:100px;
+	height:40px;
+	border:0;
+	background-color: rgb(255, 255, 192);
+}
+.button-info{
+	width:99px;
+	height:40px;
+}
+.button-margin{
+	margin-top:10px;
+}
+.save-button-size{
+	width:80px;
+	height:50px;
+	background-color:rgb(230,230,230);
+	border: 1px solid;
+}
+.sime-button-size{
+	width:120px;
+	height:70px;
+	background-color:rgb(170,170,170);
+	border: 1px solid;
+	font-size:18px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #d42020;
+}
+.navbar-default .navbar-brand {
+  color: #989898;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffdfe6;
+}
+.navbar-default .navbar-text {
+  color: #989898;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #989898;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffdfe6;
+  background-color: #d42020;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffdfe6;
+  background-color: #d42020;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffdfe6;
+  background-color: #d42020;
+}
+.navbar-default .navbar-toggle {
+  border-color: #d42020;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #d42020;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #989898;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #989898;
+}
+.navbar-default .navbar-link {
+  color: #989898;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffdfe6;
+}
+.canvas{
+	margin-left: 30px;
+	margin-top: 10px;
+	border:1px solid gray;
+}
+.sign{
+	margin-left: 200px;
+	font-size: 16pt; 
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #989898;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffdfe6;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffdfe6;
+    background-color: #d42020;
+  }
+}
