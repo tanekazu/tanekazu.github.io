@@ -4,6 +4,26 @@
   height: 47px;
   width: 206px;
 }
+.text-label {
+    width: 150px;
+    font-size: 16pt;
+    text-align: left;
+}
+
+.input-shuseki-bango {
+    margin-right: 158px;
+    font-size: 16pt;
+}
+
+.input-password {
+    margin-right: 25px;
+    font-size: 16pt;    
+}
+
+.confirm-button {
+    width: 133px;
+    height: 41px;
+}
 .item {
     margin-bottom: 7px;    
     padding-left: 0;
@@ -39,7 +59,15 @@
     height: 49px;
 }
 .sign{
-	font-size: 20pt; 
+	font-size: 20pt;
+	width:150px;
+	margin-top:50px; 
+}
+#clear{
+	width:150px;
+	height:40px;
+	font-size:16px;
+	margin-top:-100px;
 }
 .navbar-default {
   background-color: #ffffff;
