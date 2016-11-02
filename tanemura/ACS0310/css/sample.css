@@ -22,13 +22,13 @@ tbody {
     height: 411px;
 }
 .syusseki-bango{
-	width:100px;
+	width:120px;
 }
 .simei{
-	width:130px;
+	width:150px;
 }
 .simei-kana{
-	width:130px;
+	width:150px;
 }
 .syukkin-time{
 	width:100px;
@@ -37,7 +37,7 @@ tbody {
 	width:100px;
 }
 .tanka{
-	width:100px;
+	width:120px;
 	background-color:rgb(255, 255, 192);
 }
 .syusei-reason{
@@ -61,17 +61,19 @@ tbody {
 	margin-top:10px;
 }
 .save-button-size{
-	width:80px;
-	height:50px;
+	width:130px;
+	height:60px;
 	background-color:rgb(230,230,230);
 	border: 1px solid;
+	font-size:25px;
 }
 .sime-button-size{
-	width:120px;
-	height:70px;
+	width:240px;
+	height:80px;
 	background-color:rgb(170,170,170);
 	border: 1px solid;
-	font-size:18px;
+	font-size:30px;
+	margin-top:-60px;
 }
 .navbar-default {
   background-color: #ffffff;
