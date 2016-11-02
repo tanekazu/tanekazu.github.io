@@ -1,0 +1,97 @@
+.navbar-brand {
+  background: url("../img/eiken_logo2.png") no-repeat left center;
+  background-size: contain;
+  height: 47px;
+  width: 206px;
+}
+.margin-size{
+	margin-top:80px;
+}
+.text-label{
+	font-size:24px;
+	width:200px;
+	padding-top:10px;
+}
+.input{
+	font-size:18px;
+	height:40px;
+	margin-bottom:5px;
+}
+.margin-login-btn{
+	margin-top:40px;
+}
+.button-info{
+	width:200px;
+	height:70px;
+	font-size:22px;
+	background-color:rgb(230, 0, 18);
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #d42020;
+}
+.navbar-default .navbar-brand {
+  color: #989898;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffdfe6;
+}
+.navbar-default .navbar-text {
+  color: #989898;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #989898;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffdfe6;
+  background-color: #d42020;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffdfe6;
+  background-color: #d42020;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffdfe6;
+  background-color: #d42020;
+}
+.navbar-default .navbar-toggle {
+  border-color: #d42020;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #d42020;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #989898;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #989898;
+}
+.navbar-default .navbar-link {
+  color: #989898;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffdfe6;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #989898;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffdfe6;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffdfe6;
+    background-color: #d42020;
+  }
+}
