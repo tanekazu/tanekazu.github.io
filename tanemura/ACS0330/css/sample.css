@@ -12,6 +12,7 @@
 
 .item-name {
     padding-left: 5px;
+	padding-right:0px;
 /*    width: 137px;*/
     height: 27px;
     font-size: 16pt;
@@ -38,16 +39,27 @@
     width: 150px;
     height: 49px;
 }
-.sign{
-	font-size: 20pt;
-	width:150px;
-	margin-top:50px; 
+.sign-name{
+	height:150px;
+	line-height:150px;
+}
+.button-clear-info{
+	margin-top:110px;
+}
+.wrapper{
+  width: 100%;
+  height:100%;
+}
+#canvas {
+  border:1px solid gray;
+  padding:0;
 }
 #clear{
-	width:150px;
-	height:40px;
-	font-size:16px;
-	margin-top:-100px;
+	padding:0;
+	width:30px;
+	height:30px;
+	border-style:none;
+	background-color:#ffffff;
 }
 .navbar-default {
   background-color: #ffffff;
@@ -117,5 +129,23 @@
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffdfe6;
     background-color: #d42020;
+  }
+}
+@media (max-width: 991px) {
+  .canvas-info{
+  	width:313px;
+  	height:150px;
+  }
+}
+@media (min-width: 992px) {
+  .canvas-info{
+  	width:411px;
+  	height:150px;
+  }
+}
+@media (min-width: 1200px) {
+  .canvas-info{
+  	width:500px;
+  	height:150px;
   }
 }
