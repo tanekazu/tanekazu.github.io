@@ -104,13 +104,13 @@
                     <div class="col-lg-12 col-xs-12 col-sm-12">
                         <h2 class="section-heading text-center" style="font-family:'メイリオ',Meiryo;">アルバイト退勤登録</h2>
                         <div class="clearfix"></div>
-                        <h2 class="text-center" style="margin:0; margin-bottom:15px; font-family:'メイリオ',Meiryo;">現在時刻　<span id="RealtimeClockArea"></span></h2>
+                        <h2 class="text-center" style="margin:0; margin-bottom:5px; font-family:'メイリオ',Meiryo;">現在時刻　<span id="RealtimeClockArea"></span></h2>
                         <div class="col-lg-12 col-xs-12 col-sm-12 text-center">
                             <div class="form-group form-inline text-center">
                                 <label class="text-label">出席番号</label>
                                 <input type="text" name="shuseki-bango" class="form-control input-shuseki-bango">
                             </div>
-                            <div class="form-group form-inline text-center">
+                            <div class="form-group form-inline text-center" style="margin-bottom:0px;">
                                 <label class="text-label">パスワード</label>
                                 <input type="password" name="password" class="form-control input-password">
                                 <button id="kakunin"type="button" class="confirm-button">確認</button>
@@ -156,8 +156,11 @@
                         <div class="item col-lg-12 col-xs-12 col-sm-12">
                             <div class="item col-lg-12 col-xs-12 col-sm-12">
                                 <div class="bg-info text-left item-name sign-name col-lg-3 col-xs-3 col-sm-3">本人サイン</div>
-                                <canvas id="canvas" class="col-lg-8 col-xs-8 col-sm-8"></canvas>
-                   	                       		 	
+                                <div class="item col-lg-8 col-xs-8 col-sm-8">
+                                	<div class="wrapper">
+                                		<canvas id="canvas"class="canvas-info"></canvas>
+                                	</div>
+                   	            </div>           		 	
                        		 	<div class="item col-lg-1 col-xs-1 col-sm-1 button-clear-info">
                         			<button id="clear"><i class="fa fa-times fa-3x button-clear"></i></button>
                         		</div> 
@@ -165,7 +168,7 @@
                         </div>
                     </div>
                     <div class="col-lg-12 col-xs-12 col-sm-12">
-                    	<div class="text-center" style="margin-top:15px;">
+                    	<div class="text-center">
                         	<button wicket:id="taikin"type="submit" name="taikin" class="taikin">退勤</button>
                         </div>
                     </div>
@@ -199,6 +202,10 @@ $(function() {
     	 $("#sign").val(document.getElementById("canvas").toDataURL('image/png'));
     };
 });
+
+//canvasサイズ設定
+var w = $('.wrapper').width();
+$('#canvas').attr('width', w);
 
 //canvasの読み込み設定
 var canvas = document.getElementById("canvas");
@@ -250,13 +257,6 @@ $('#clear').click(function(e) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 });
 
-
-
 </script><style>/** CSS：記述スペース */
-#canvas {
-  border:1px solid gray;
-  height:120px;
-  padding:0;
-}
 </style></body>
 </html>
