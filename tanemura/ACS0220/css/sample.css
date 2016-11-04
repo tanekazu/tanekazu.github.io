@@ -60,11 +60,18 @@
     height: 49px;
 }
 .sign-name{
-	height:120px;
-	line-height:120px;
+	height:130px;
+	line-height:130px;
 }
 .button-clear-info{
-	margin-top:80px;
+	margin-top:95px;
+}
+.wrapper{
+  width: 100%;
+}
+#canvas {
+  border:1px solid gray;
+  padding:0;
 }
 #clear{
 	padding:0;
@@ -141,5 +148,23 @@
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffdfe6;
     background-color: #d42020;
+  }
+}
+@media (max-width: 991px) {
+  .canvas-info{
+  	width:313px;
+  	height:130px;
+  }
+}
+@media (min-width: 992px) {
+  .canvas-info{
+  	width:411px;
+  	height:130px;
+  }
+}
+@media (min-width: 1200px) {
+  .canvas-info{
+  	width:500px;
+  	height:130px;
   }
 }
