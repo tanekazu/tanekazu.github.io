@@ -71,6 +71,10 @@
   width: 100%;
   height:100%;
 }
+.canvas-info{
+	width:500px;
+	height:150px;
+}
 #canvas {
   border:1px solid gray;
   padding:0;
@@ -152,21 +156,8 @@
     background-color: #d42020;
   }
 }
-@media (max-width: 991px) {
-  .canvas-info{
-  	width:313px;
-  	height:150px;
-  }
-}
-@media (min-width: 992px) {
-  .canvas-info{
-  	width:411px;
-  	height:150px;
-  }
-}
-@media (min-width: 1200px) {
-  .canvas-info{
-  	width:500px;
-  	height:150px;
-  }
+@media (max-width: 1023px) {
+	.button-clear-info{
+		padding-left:20px;
+	}
 }
