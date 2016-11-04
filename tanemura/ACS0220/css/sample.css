@@ -32,6 +32,7 @@
 
 .item-name {
     padding-left: 5px;
+	padding-right:0px;
 /*    width: 137px;*/
     height: 27px;
     font-size: 16pt;
@@ -58,16 +59,19 @@
     width: 150px;
     height: 49px;
 }
-.sign{
-	font-size: 20pt;
-	width:150px;
-	margin-top:50px; 
+.sign-name{
+	height:120px;
+	line-height:120px;
+}
+.button-clear-info{
+	margin-top:80px;
 }
 #clear{
-	width:150px;
-	height:40px;
-	font-size:16px;
-	margin-top:-100px;
+	padding:0;
+	width:30px;
+	height:30px;
+	border-style:none;
+	background-color:#ffffff;
 }
 .navbar-default {
   background-color: #ffffff;
